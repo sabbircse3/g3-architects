@@ -1,0 +1,430 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* golabal style  start */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* golabal style  end */
+
+/* header style start  */
+.hearder{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 90px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.herder-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+/* header style start  */
+
+/* Brand new group style start  */
+.brand{
+    margin-top: 50px;
+    text-align: center;
+}
+.brand-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 28px; 
+}
+.brand-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px; 
+}
+.primary-btn{
+    background: #FF900E;
+    color: #fff;
+    border: none;
+    width: 175px;
+    height: 64px;
+    border-radius: 8px;
+    font-size:14px ;
+    cursor: pointer;
+}
+.brand-banner-img{
+   margin-top: 35px;
+}
+.banner-img{
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+/* Brand new group style end  */
+
+
+/* quick list style start  */
+.quick-list-feature-of{
+    padding: 55px 70px;
+    grid-column-gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.quick-list-img{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+.quick-features{
+    padding-top: 200px;
+}
+.quick-title{
+    font-size: 45px;  
+    margin-bottom: 20px;
+}
+.quick-list{
+    color: #727272; 
+}
+.feature{
+    color: #FF900E;
+}
+.quick-description{
+    font-weight: 400;
+    font-size: 16px; 
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+/* quick list style end  */
+
+/* feature love and enjoy style start  */
+.feture-love{
+    padding: 50px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 110px;
+}
+
+.feature-main-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 15px;
+    border-left: 3px solid #FF900E;
+    padding-left: 15px;
+}
+.feature-description{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature-card{
+    padding: 25px 35px;
+    width: 100%;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.feature-card-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-main{
+    position: relative;
+}
+
+.feature-button-section{
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+}
+.feature-img{
+    width: 100%;
+    height: 100%;
+    
+}
+.feature-btn{
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer; 
+}
+.years-10{
+font-size:50px ;
+}
+
+.experience{
+    font-size: 20px;
+}
+/* feature love and enjoy style end  */
+
+/* some facts style start  */
+.some-facts{
+    padding: 50px 60px;
+}
+.some-fact-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.some-fact-description{
+    color: #727272;  
+}
+.some-fact-cards{
+    margin-top: 90px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 40px; 
+}
+.card{
+    height: 245px;
+    width: 245px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    cursor: pointer;      
+}
+.card-des{
+    text-align: center;
+    padding-top: 65px;
+    transition:  0.5s ease-in;
+   
+}
+.card-des:hover{
+    transform: scale(1.5);
+        
+}
+.card-des img{
+    margin-bottom: 10px;
+}
+/* some facts style end  */
+
+
+/* our sponsors style start  */
+.our-sponsors{
+    padding: 70px 70px;
+}
+.sponsor-des{
+    text-align: center;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25PX;
+}
+.sponsor-des P{
+    color: #727272;  
+}
+.sponsor-company{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsor-img {
+    filter: grayscale(100%);
+}
+/* our sponsors style end  */
+
+/* contact us style start  */
+.contact-us{
+    padding: 60px 70px;
+}
+.contact-des{
+    text-align: center;
+}
+.contact-des h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* form section  */
+.container{
+    margin-top: 70px;
+    text-align: center;
+}
+input[type=text],input[type=number],input[type=email],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #7794ba;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .container-sub-title {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .container-palcholder-box {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+ 
+  .conatiner-description:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* contact us style end  */
+
+/* footer style start  */
+.footer{
+    padding: 70px 75px;
+}
+.footer-des{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 25px;
+    text-align: center;
+    color: #424242;
+    border-radius: 6px;
+    width: 100%;
+}
+/* footer style end  */
+
+
+/* moblie device section start */
+@media screen and (max-width: 576px) {
+
+    .hearder{
+        height: 100%;
+        padding: 10px;
+    }
+    nav > ul{
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        list-style: none;
+        gap: 10px;
+    }
+    .herder-title{
+        font-size: 25px;
+    }
+    .brand-title{
+        font-size: 35px;
+    }
+    .quick-list-feature-of{
+       
+        display: grid;        
+         grid-template-columns: repeat(1, 1fr);
+         gap: 20px;
+         align-items: center;
+        
+    }
+    .quick-list-img{
+       align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);      
+        
+    
+    }
+    .quick-features{
+        padding-top: 20px;
+    }
+    .feture-love{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-main{
+        position: relative;
+    }
+    .feature-main-title{
+        margin-left: 20px;
+    }
+    
+    .feature-button-section{
+        position: absolute;
+        bottom: -30px;
+        left: -15px;
+    }
+    .years-10{
+        font-size: 20px;
+    }
+    .experience{
+        font-size: 12px;
+    }
+    .some-fact-title, .some-fact-description, .quick-title, .quick-description, .exploro-button, .feature-description{
+        text-align: center;
+    }
+    .card-des{
+        text-align: center;
+        padding-top: 65px;
+        transition:  0.5s ease-in;
+       
+    }
+    .card-des:hover{
+        transform: scale(1.1);
+        
+        
+    }
+    .sponsor-company, .some-fact-cards{
+        flex-direction: column;
+        gap: 15px;
+       
+    }
+    .contact-us, .our-sponsors, .some-facts, .feture-love, .quick-list-feature-of, .brand-description{
+        padding: 20px 28px;
+    }
+    .container-sub-title , .container-palcholder-box, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .footer{
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+    }
+  
+  }
+
+  /* moblie device section start */
